@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #182a39;
+  font-family: 'Nunito', sans-serif;
+  color: #f48c28;
+  text-align: center;
+}
+
+header {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+#boxOne {
+  height: 150px;
+  background-color: #e7c37a;
+}
+
+#boxTwo {
+  height: 90px;
+  background-color: #9ac377;
+}
+
+#boxThree {
+  height: 178px;
+  background-color: #ea1b0d;
+}
+
+#textToReverse {
+  color: #182a39;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+button {
+  padding: 7px;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #182a39;
+  color: #e7c37a;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#timer {
+  padding-top: 25px;
+  font-size: 25px;
+  color: #182a39;
+}
+
+#inputForm {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #182a39;
+}
+
+input {
+  background-color:beige;
+  border-style: none;
+  border-radius: 15px;
+  padding: 7px;
+}
