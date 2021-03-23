@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(#001427, #00376B);
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+}
+
+.container {
+    background-image: linear-gradient(#E7C6FF, #DBB2F9);
+    height: 100%;
+    width: 100%;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+
+header {
+    padding: 15px 15px 0 15px;
+}
+
+nav {
+    background-image: linear-gradient(#F8B8F8, #FFD6FF);
+    margin-left: 15px;
+    margin-right: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.navbarMenu {
+    list-style: none;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbarLink {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00376B;
+    float: left;
+    padding: 15px;
+}
+
+main {
+    background-image: linear-gradient(#FFD6FF, #F8B8F8);
+    margin: 3px 15px 15px 15px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+}
+
+.rightContent {
+    border-right: white dashed 0.5px;
+}
+
+a:hover {
+    color: #B8C0FF;
+    transition: 0.5s;
+}
+
+h1, p {
+    color:#00376B;
+    padding-bottom: 15px;
+    grid-column: 1/1;
+}
+
+.bathtubPicture {
+    float: left;
+    margin-right: 15px;
+}
+
+.contentOl, .contentUl {
+    margin-left: 15px;
+    color:#00376B;
+}
+
+.listOl, .listUl {
+    grid-column: 1/1;
+}
+
+.listOl {
+    margin-bottom: 15px;
+}
+
+.listUl {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    width: 450px;
+    background-color: #C8B6FF;
+    color:#00376B;
+    grid-column: 1/1;
+}
+
+hr {
+    border: 0.5px dashed white;
+    width: 550px;
+    margin-bottom: 15px;
+    grid-column: 1/1;
+}
+
+form {
+    grid-column: 1/1;
+}
+
+label {
+    color:#00376B;
+    font-weight: 500;
+}
+
+#fullname, #email, #searchBox {
+    padding: 5px 10px 5px 10px;
+    margin: 15px 0 15px 0;
+    max-width: fit-content;
+    transition: 0.5s;
+}
+
+#fullname:active, #fullname:hover, #email:active, #email:hover, 
+textarea:active, textarea:hover, #searchBox:active, #searchBox:hover, select:active, select:hover {
+    border-radius: 15px;
+}
+
+#premium {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#standard {
+    margin-bottom: 20px;
+}
+
+select {
+    margin: 15px 0 20px 0;
+    padding: 5px 10px 5px 10px;
+    transition: 0.5s;
+}
+
+textarea {
+    margin: 15px 0 15px 0;
+    padding: 5px 10px 5px 10px;
+    height: 100px;
+    max-width: fit-content;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submitButton, .searchButton {
+    padding: 5px 10px 5px 10px;
+    color:#00376B;
+    background-color:#C8B6FF;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.submitButton:hover, .searchButton:hover {
+    border-radius: 15px;
+}
+
+.submitButton:active, .searchButton:active {
+    background-color: #00376B;
+    color:#C8B6FF;
+}
+
+aside {
+    grid-column: 2/2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 30px;
+}
+
+.asideH1 {
+    font-size: 31px;
+}
+
+.fairP {
+    margin-bottom: 3px;
+}
+
+.sidebarList, .sponsorsList {
+    margin-bottom: 25px;
+}
+
+.sidebar, .sponsors {
+    list-style: none;
+}
+
+.sidebarLink, .sponsorsLink {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00376B;
+}
+
+.sidebarLink:hover {
+    color: #B8C0FF;
+    transition: 0.5s;
+}
+
+.sidebarHr, .sponsorsHr {
+    border: 0.5px dashed white;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.emailLink {
+    text-decoration: none;
+    font-weight: bold;
+    color:#00376B;
+    transition: 0.5s;
+}
+
+.myQuote {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.supportP {
+    margin-bottom: 27px;
+}
+
+footer p {
+    color:#C8B6FF;
+    text-align: center;
+}
+
+.fullnamePHP, .emailPHP, .memberTypePHP, .subscriptionPHP, .commentPHP {
+    color:#00376B;
+}
